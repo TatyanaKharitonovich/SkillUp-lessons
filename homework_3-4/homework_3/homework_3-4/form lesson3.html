@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Forms lesson 3</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<h1>Регистрация на сайте</h1>
+	<img src="RWA055-IRIR-AB1AB1-1_1.jpg"> <br>
+	Для регистрации на сайте необходимо заполнить следующую форму. Данные, предоставленные Вами, строго конфиденциальны. Ознакомиться с условиями соглашения можно <a href="#" target="_blank"> здесь </a> 
+	<form action="#" metod="GET">
+		<p>
+			<label>
+			Ваше имя:
+				<input type="text" name="text" placeholder="Введите имя"/>
+			</label>
+		</p>
+		<p>
+			<label>
+			Ваша фамилия:
+				<input type="text" name="text" placeholder="Введите фамилию"/>
+			</label>
+		</p>
+		<p>
+			<label>
+			Ваш логин:
+				<input type="text" name="text" placeholder="Введите логин"/>
+			</label>
+		</p>
+		<p>
+			<label>
+			Ваш пароль:
+				<input type="password" name="password" placeholder="Введите пароль"/>
+			</label>
+		</p>
+		<p>
+			<label>
+			Ваш e-mail:
+				<input type="e-mail" name="e-mail" placeholder="Введите e-mail"/>
+			</label>
+		</p>
+		<p>
+			<label>
+			Ваш телефон:
+				<input type="numbers" name="phone number" placeholder="Введите Ваш номер телефона"/>
+			</label>
+		</p>
+		<p>Выберите пол:
+			<label>
+			Женский <input type="radio" name="radio" value="F">
+			</label>
+			<label>
+			Мужской <input type="radio" name="radio" value="M">
+			</label>
+		</p>
+		<p>
+			<label>Семейное положение
+				<select>
+					<option value="1">Женат</option>
+					<option value="2">Холост</option>
+					<option value="3">Разведен</option>
+				</select>
+			</label>
+		</p>
+		<p>
+			<label>Дата рождения:
+				<input type="date" name="date"/>
+			</label>
+		</p>
+		<p>
+			<label> Выберите город
+				<select>
+					<option value="1">Минск</option>
+					<option value="2">Гродно</option>
+					<option value="3">Гомель</option>
+					<option value="4">Могилев</option>
+					<option value="5">Брест</option>
+					<option value="6">Витебск</option>
+				</select>
+			</label>
+		</p>
+		<p>
+			<label id="photo"> Загрузите фото профиля
+				<input type="file" name="file"/>
+			</label>
+		</p>
+		<p>
+			<label>Краткая биография <br>
+				<textarea placeholder="Large text"> Расскажите о себе
+			</textarea>
+			</label>
+		</p>
+		<p>
+			<label>Я согласен с условиями
+				<input type="checkbox" name="checkbox"/> 
+			</label>
+		</p>
+		<p>
+			<label>Сбросить все и начать заново
+				<input type="reset" name="reset"/>
+			</label>
+			</p>
+		<p>
+			<label>Зарегистрироваться
+				<input type="submit" name="submit"/>
+			</label>
+		</p>
+	</form>
+</body>
+</html>
+
